@@ -1,0 +1,123 @@
+
+
+#daysBox, #hoursBox, #minsBox, #secsBox {
+  font-family: 'Orbitron', sans-serif;
+  font-size:4em;
+  float:left;
+  width:25%;
+  height: 10vh;
+  color:green;
+  padding-top:10vh;
+  margin-top:10vh;
+  /*margin-top:15vh;*/
+  background-color: black;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -moz-box-shadow: 0 0 10px #bdbdbd;
+  -webkit-box-shadow: 0 0 10px #bdbdbd;
+  box-shadow: 0 0 10px #bdbdbd;
+
+
+}
+
+h5 {
+  font-family: 'Orbitron', sans-serif;
+  font-size:1em;
+  /*width:5%;
+  height: 10vh;*/
+  color:green;
+  display:inline-block;
+
+}
+
+
+.clock{
+  width:100%;
+  height:529px;
+  margin: 0 auto;
+  text-align: center;
+  white-space: nowrap;
+  /*letter-spacing: 2.5em;*/
+  overflow: hidden;
+  width: 615px;
+
+
+}
+
+.row{
+width:100%;
+height:50px;
+margin: 0 auto;
+text-align: center;
+/*letter-spacing: 2.5em;*/
+
+
+
+}
+
+h1{
+  font-family: 'Vampiro One', cursive;
+  font-size:4em;
+  display: inline-block;
+  width: 100%;
+  position: relative;
+  top: 148px;
+  margin-top:10vh;
+  color:#fff;
+  text-shadow: 0 0 0.1em #fff, 0 0 0.2em #fff, 0 0 0.3em black, 0 0 0.4em #77f, 0 0 0.6em #77f, 0 0 0.8em #77f,
+  0 0  1.0em #017185, 0 0  1.5em #017185;
+
+}
+
+.row2{
+  width:100%;
+  margin: 0 auto;
+  vertical-align: middle;
+  text-align: center;
+/*letter-spacing: 2.5em;*/
+}
+
+.row3{
+  width:100%;
+  margin: 0 auto;
+  text-align: center;
+  vertical-align: middle;
+
+/*letter-spacing: 2.5em;*/
+}
+
+
+h2{
+  font-family: 'Vampiro One', cursive;
+  font-size:4em;
+  display: inline-block;
+  width: 100%;
+  position: relative;
+  top:153px;
+  margin-top:10vh;
+  color:#fff;
+  text-shadow: 0 0 0.1em #fff, 0 0 0.2em #fff, 0 0 0.3em black, 0 0 0.4em #77f, 0 0 0.6em #77f, 0 0 0.8em #77f,
+  0 0  1.0em #017185, 0 0  1.5em #017185;
+
+}
+
+
+.container-fluid{
+  background-image: url("../images/baseballstadium.jpg");
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  height:100vh;
+
+}
+
+
+
+
+#labels > div {
+  display: inline-block;
+  width: 25%;
+  position: relative;
+  top: 150px;
+  margin-top:10vh;
+}
