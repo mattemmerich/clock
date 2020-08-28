@@ -1,5 +1,5 @@
 function countdown(){
-  var baseball = new Date("March 26, 2020 12:00:00 PM");
+  var baseball = new Date("March 26, 2021 12:00:00 PM");
   var now = new Date();
   var timeDiff = baseball.getTime() - now.getTime();
   if (timeDiff <= 0) {
